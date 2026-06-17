@@ -5,5 +5,5 @@ import { defineConfig } from 'astro/config';
 export default defineConfig({
   site: 'https://GestaltCaius.github.io',
   base: '/blog',
-  trailingSlash: 'always'
+  trailingSlash: 'always',
 });

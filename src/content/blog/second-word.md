@@ -6,6 +6,6 @@ tags: ["cat", "astro", "bun", "ci"]
 canonical_url: "https://GestaltCaius.github.io/blog/second-word/"
 ---
 
-## hi 
+## hi
 
 yes 🍪

@@ -34,7 +34,9 @@ const sorted = [...posts].sort(
             <h2 class="font-semibold text-base-content group-hover:underline underline-offset-2 decoration-base-content/30">
               {post.data.title}
             </h2>
-            <p class="text-sm text-base-content/60 mt-1">{post.data.description}</p>
+            <p class="text-sm text-base-content/60 mt-1">
+              {post.data.description}
+            </p>
             {post.data.pubDate && (
               <p class="text-xs text-base-content/40 mt-2">
                 {post.data.pubDate.toLocaleDateString("en-US", {

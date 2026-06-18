@@ -8,8 +8,7 @@ import sitemap from "@astrojs/sitemap";
 // https://astro.build/config
 export default defineConfig({
   site: "https://GestaltCaius.github.io",
-  base: "/blog",
-  // trailingSlash: "always",
+  base: "/blog/",
 
   vite: {
     plugins: [tailwindcss()],

@@ -1,9 +1,20 @@
 // @ts-check
-import { defineConfig } from 'astro/config';
+import { defineConfig } from "astro/config";
+
+import tailwindcss from "@tailwindcss/vite";
+
+import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://GestaltCaius.github.io',
-  base: '/blog',
-  trailingSlash: 'always',
+  site: "https://GestaltCaius.github.io",
+  base: "/blog",
+  // trailingSlash: "always",
+
+  vite: {
+    plugins: [tailwindcss()],
+  },
+
+  integrations: [sitemap()],
+
 });

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 175 105" width="100%" height="100%">
+  <style>
+    .logo-text {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+      font-weight: 900;
+      fill: currentColor;
+    }
+    .logo-accent {
+      fill: #1b8de4;
+    }
+  </style>
+
+  <!-- "EZ" Monogram -->
+  <text x="20" y="85" font-size="90" class="logo-text" letter-spacing="-4">EZ</text>
+
+  <!-- Accent dot -->
+  <circle cx="155" cy="73" r="10" class="logo-accent" />
+</svg>

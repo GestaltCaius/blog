@@ -4,11 +4,11 @@ on:
   push:
     branches: [main]
     paths:
-      - 'src/**'
-      - 'public/**'
-      - 'astro.config.mjs'
-      - 'package.json'
-      - 'bun.lock'
+      - "src/**"
+      - "public/**"
+      - "astro.config.mjs"
+      - "package.json"
+      - "bun.lock"
   workflow_dispatch:
 
 permissions:

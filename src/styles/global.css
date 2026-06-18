@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@plugin "@tailwindcss/typography";
+
+html[data-theme="dark"] #theme-toggle-sun {
+  display: none;
+}
+html[data-theme="light"] #theme-toggle-moon {
+  display: none;
+}
